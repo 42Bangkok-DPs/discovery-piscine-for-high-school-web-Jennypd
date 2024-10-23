@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh; /* Full height */
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#first-parallax {
+    background-image: url('/home/nim/Downloads/cat1.png'); /* '/home/nim/Downloads/cat1.png' */
+}
+
+#second-parallax {
+    background-image: url('/home/nim/Downloads/cat2.png'); /* '/home/nim/Downloads/cat2.png' */
+}
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.black-block {
+    background-color: black;
+    height: 50vh; /* 30vh */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+position: relative;
+}
